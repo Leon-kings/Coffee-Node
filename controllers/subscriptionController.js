@@ -1,4 +1,4 @@
-const Subscriber = require("../models/Subscriber");
+const Subscriber = require("../models/subscriber");
 const sendEmailToAdmin = require("../config/emailConfig");
 const { generateVerificationToken } = require("../config/auth"); // You'll need to implement this
 
